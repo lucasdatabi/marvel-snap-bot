@@ -1,11 +1,11 @@
-adb_path = 'D:\\JocsPC\\Nox\\bin'
-project_path = 'F:\\WebPages\\Bots\\marvelSnapBot'
-images_folder = project_path + '\\images'
-fields_folder = images_folder + '\\fields'
-mana_folder = images_folder + '\\mana'
-turns_folder = images_folder + '\\turns'
-data_folder = project_path + '\\data'
-tmp_path = project_path + '\\tmp'
+adb_path: Absolute path to where you can execute ADB
+project_path: Absolute path to the project
+images_folder: Absolute path to the images folder
+fields_folder: Absolute path to the fields images folder
+mana_folder: Absolute path to the mana images folder
+turns_folder: Absolute path to the turns folder
+data_folder: Absolute path to the card images folder
+tmp_path: Absolute path to a tmp folder
 example_data_path = images_folder + '\\example_data'
 tmp_image_without_bg_path = tmp_path + \
     '\\hand_cards_number_without_background.png'
